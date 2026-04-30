@@ -14,7 +14,6 @@ UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# Rebuild model architecture
 IMAGE_SIZE = 128
 NUM_CLASSES = 4
 
